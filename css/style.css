@@ -194,7 +194,7 @@ section.tinder-layout {
 .card {
     background-color: #ffeaea;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(71, 1, 1, 0.1);
     padding: 20px;
     margin: 0 10px;
     flex-direction: row;
@@ -231,3 +231,60 @@ section.tinder-layout {
     color: #fff;
 }
 
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ffeaea;
+    border-radius: 5px;
+    background-color: #ffeaea;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #640000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e47272;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #fff; /* Bakgrundsfärg */
+    color: #640000; /* Textfärg */
+}
+
+/* Styla alternativen (options) */
+select option {
+    background-color: #fff; /* Bakgrundsfärg */
+    color: #640000; /* Textfärg */
+    font-size: 16px;
+}
