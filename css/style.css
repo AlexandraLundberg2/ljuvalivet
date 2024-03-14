@@ -33,6 +33,7 @@ body {
     color: #640000;
 }
 
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -119,11 +120,24 @@ footer {
     background-color: #e47272;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
 }
+
+.footer-content{
+    float: none;
+    display: inline;
+}
+
+.footer-logo {
+    width: 100px; /* Justera storleken efter behov */
+    height: auto; /* Säkerställ att höjden justeras proportionellt */
+    float: right;
+}
+
 
 #login-form {
     background-color: #ffeaea;
@@ -180,6 +194,8 @@ footer {
 
 .rounded-image {
     border-radius: 3%;
+    height: auto ;
+    width: auto;
 }
 
 section.tinder-layout {
@@ -264,6 +280,7 @@ input[type="submit"] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 input[type="submit"]:hover {
