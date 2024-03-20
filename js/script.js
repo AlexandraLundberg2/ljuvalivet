@@ -27,25 +27,6 @@
     }
 
 
-    var heart = document.getElementById('heart');
-
-function toggleHeart() {
-    if (heart.style.display === 'none') {
-        heart.style.display = 'block';
-    } else {
-        heart.style.display = 'none';
-    }
-}
-
-document.querySelector('.like-btn').addEventListener('click', function() {
-    toggleHeart();
-});
-
-heart.addEventListener('click', function() {
-    toggleHeart();
-});
-
-
 // Hämta alla knappar med klassen "comment-btn"
 var commentButtons = document.querySelectorAll('.comment-btn');
 
